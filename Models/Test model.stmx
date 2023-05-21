@@ -144,6 +144,7 @@
 			<view background="white" page_width="1066" page_height="600" home_view="true" type="interface">
 				<style/>
 				<text_box x="166" y="193" width="260" height="58">Some text</text_box>
+				<text_box x="166" y="266" width="260" height="58">Some text</text_box>
 			</view>
 			<isee:templates>
 				<view background="white" page_width="1066" page_height="600" type="template">
