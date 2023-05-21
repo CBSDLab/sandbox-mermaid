@@ -3,7 +3,7 @@
 	<header>
 		<smile version="1.0" namespace="std, isee"/>
 		<name>Test model</name>
-		<uuid>9ccedfa6-59df-4dcf-b9ae-6e4505ee593f</uuid>
+		<uuid>eed773d1-f4f7-4725-8d05-452b96d4f2dc</uuid>
 		<vendor>isee systems, inc.</vendor>
 		<product version="3.3" isee:build_number="2953" isee:saved_by_v1="true" lang="en">Stella Architect</product>
 	</header>
@@ -18,7 +18,20 @@
 		<isee:time_format name="Builtin" type="adaptive"/>
 	</isee:time_formats>
 	<default_format/>
-	<model_units/>
+	<model_units>
+		<unit name="Dimensionless">
+			<eqn>1</eqn>
+			<alias>dmnl</alias>
+			<alias>unitless</alias>
+		</unit>
+		<unit name="kilowatt hours per day">
+			<eqn>kWh/day</eqn>
+		</unit>
+		<unit name="kilowatts">
+			<eqn>kW</eqn>
+			<alias>kilowatt</alias>
+		</unit>
+	</model_units>
 	<model>
 		<variables>
 			<aux name="Converter 1">
@@ -128,6 +141,16 @@
 					<to>Converter_3</to>
 				</connector>
 			</view>
+			<view background="white" page_width="1066" page_height="600" home_view="true" type="interface">
+				<style/>
+				<text_box x="166" y="193" width="260" height="58">Some text</text_box>
+			</view>
+			<isee:templates>
+				<view background="white" page_width="1066" page_height="600" type="template">
+					<style/>
+				</view>
+			</isee:templates>
+			<isee:stories/>
 		</views>
 	</model>
 </xmile>
