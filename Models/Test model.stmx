@@ -27,6 +27,9 @@
 			<aux name="Converter 2">
 				<eqn>Converter_1 + 1</eqn>
 			</aux>
+			<aux name="Converter 3">
+				<eqn>Converter_2 + 1</eqn>
+			</aux>
 		</variables>
 		<views>
 			<style color="black" background="white" font_style="normal" font_weight="normal" text_decoration="none" text_align="center" vertical_text_align="center" font_color="black" font_family="Arial" font_size="10pt" padding="2" border_color="black" border_width="thin" border_style="none">
@@ -118,6 +121,11 @@
 				<connector uid="1" angle="0">
 					<from>Converter_1</from>
 					<to>Converter_2</to>
+				</connector>
+				<aux x="448" y="197" name="Converter 3"/>
+				<connector uid="2" angle="356.186">
+					<from>Converter_2</from>
+					<to>Converter_3</to>
 				</connector>
 			</view>
 		</views>
