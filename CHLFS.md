@@ -4,7 +4,7 @@ config:
   sankey:
     showValues: false
 ---
-sankey-beta
+sankey-beta 
 
 Hawaii,Regional CLD,15
 Alaska,Regional CLD,20
