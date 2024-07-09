@@ -45,6 +45,5 @@ CNMI,Regional CLD-0,100
 Guam,Regional CLD-0,72
 Regional CLD-0,Regional CLD-1,26
 Regional CLD-1,Regional CLD-5*+,26
-Regional CLD-0,CHL Data Model,26
 American Samoa,Regional CLD-0,48 
 ```
