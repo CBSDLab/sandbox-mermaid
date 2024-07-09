@@ -28,3 +28,34 @@ gitGraph
   merge interface
   
 ```
+
+# State diagram
+Some text to separate the diagrams
+
+```mermaid
+---
+Test
+---
+stateDiagram-v2
+[*] --> First
+    state First {
+        [*] --> second
+        second --> [*]
+    }
+```
+
+# Sankey
+```mermaid
+---
+config:
+  sankey:
+    showValues: false
+---
+sankey-beta
+
+Hawaii,"Regional CLD",123
+Alaska,"Regional CLD",212
+Pumped heat,"Heating and cooling, ""homes""",193.026
+Pumped heat,"Heating and cooling, ""commercial""",70.672
+```
+
